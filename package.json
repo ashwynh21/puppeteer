@@ -1,11 +1,11 @@
 {
-  "name": "puppeteer",
+  "name": "puppet",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --fix --quiet  --ext .ts .",
+    "lint": "eslint --fix",
     "build": "webpack",
     "start": "node build/index.bundle.js"
   },
